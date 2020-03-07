@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: SingleChildScrollView(
         child:// First Page 
           Container(
-            width: 411,
+            width: double.infinity,
             height: 731,
             decoration: BoxDecoration(
                   gradient: LinearGradient(
