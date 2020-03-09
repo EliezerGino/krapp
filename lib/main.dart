@@ -1,18 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:krapp/android/pages/splashScreen.page.dart';
 
-void main() => runApp(MyApp());
+import 'UI/material-app.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: SplashScreen(),
-    );
-  }
-}
+void main() => runApp(MyMaterialApp());

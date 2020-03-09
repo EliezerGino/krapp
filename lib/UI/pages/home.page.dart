@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatefulWidget {
+class HomePage extends StatefulWidget {
   @override
-  _SplashScreenState createState() => _SplashScreenState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child:// First Page 
-          Container(
+        child:Container(
             width: double.infinity,
             height: 731,
             decoration: BoxDecoration(
@@ -20,8 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   end: Alignment.bottomCenter,
                   colors: [ Color(0xffc678f9), Color(0xff1969e0)])
               ),
-            child: Stack(children: [
-            // Button 
+            child: Stack(children: [ 
             PositionedDirectional(
               top: 592,
               start: 61,
@@ -128,7 +126,7 @@ class _SplashScreenState extends State<SplashScreen> {
               start: 163,
               child: 
                   SizedBox(
-                width: 82,
+                width: 85,
                 height: 24,
                 child:   Text(
                 "Português",
